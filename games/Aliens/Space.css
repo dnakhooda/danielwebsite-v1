@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Commodore";
+    src: url("CommodorePixelized.ttf");
+  
+  }
+  
+  .none{
+    display: none;
+  }
+  
+  #myCanvas{
+    background-color: black;
+  }
+  
+  #button1{
+    background-color: black;
+    border-color: white;
+    color: white;
+    font-family: "Commodore";
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  #button2{
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-family: "Commodore";
+    height: 20px;
+    font-size: 15px;
+  }
+  
+  #title{
+    text-align: center;
+    color: white;
+    font-family: 'Commodore';
+  }
+  
+  #title3{
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Commodore';
+    color: red;
+    width: 700px;
+    height: 315px;
+    font-size: 30px;
+  }
+  
+  #text{
+    color: white;
+    font-family: 'Commodore';
+    font-size: 15px;
+  }
+  
+  #checkbox1{
+    text-align: center;
+    color: white;
+    font-family: 'Commodore';
+  }
+  
+  #highScore{
+    color: white;
+    font-family: 'Commodore';
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  #text2{
+    color: white;
+    font-family: 'Commodore';
+    font-size: 15px;
+    text-decoration: none;
+  }
+  
+  #title2{
+    text-align: center;
+    color: white;
+    font-family: 'Commodore';
+    font-size: 20px;
+  }
+  
+  body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+  }
+  

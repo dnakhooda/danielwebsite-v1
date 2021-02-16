@@ -1,0 +1,149 @@
+<html>
+    <head>
+        <title>Error Webpage</title>
+        <style>
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+h1{
+    font-family: Verdana;
+    color: #32CD32;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2{
+    font-family: Verdana;
+    color: #32CD32;
+    font-weight: 100;
+}
+
+h3{
+    font-family: Verdana;
+    color: #32CD32;
+    font-weight: 100;
+}
+
+p{
+    font-family: Verdana;
+    color: #32CD32;
+    font-weight: 100;
+}
+
+.center-div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.button-header{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    color: #32CD32;
+    font-family: Verdana;
+}
+
+.button-div-header{
+    width:20%;
+    height: 100%;
+}
+
+.none-text{
+    font-style: italic;
+}
+
+.center-text{
+    text-align: center;
+}
+
+#main-body-div{
+    width: 900px;
+    background-color: black;
+}
+
+#main-header{
+    background-color: black;
+    height: 40px;
+    border-bottom: 5px solid #32CD32;
+    border-left: 5px solid #32CD32;
+    border-right: 5px solid #32CD32;
+}
+
+#border-div-weak{
+    width:100%;
+    height: 5px;
+    background-color: #32CD32;
+}
+
+#border-div-strong{
+    width:100%;
+    height: 10px;
+    background-color: #32CD32;
+}
+
+#header-div{
+    display: flex;
+    height: 100%;
+}
+
+#divider-div{
+    height: 100px;
+    width: 100%;
+}
+
+#divider-div-weak{
+    height: 50px;
+    width: 100%;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="center-div">
+
+            <div id="main-body-div">
+                <!-- Header -->
+                <header id="main-header">
+                    <div id="header-div">
+                        <div class="button-div-header">
+                            <button class="button-header" id="home-button-header" style="font-weight: bold;">
+                                Home
+                            </button>
+                        </div>
+                        <div class="button-div-header">
+                            <button class="button-header" id="about-button-header" style="font-weight: bold;">
+                                About
+                            </button>
+                        </div>
+                        <div class="button-div-header">
+                            <button class="button-header" id="games-button-header"  style="font-weight: bold;">
+                                Games
+                            </button>
+                        </div>
+                    </div>
+                </header>
+                <div id="divider-div-weak"></div>
+                <h2 class="none-text" style="text-align: center; font-weight: bold;">There is no such page!</h2>
+
+            </div>
+        </div>
+        <script>
+document.getElementById("home-button-header").onclick = function() {
+    window.location.assign("http://www.danielwebsite.com/index.html");
+};
+
+document.getElementById("about-button-header").onclick = function() {
+    window.location.assign("http://www.danielwebsite.com/about/about.html");
+};
+
+document.getElementById("games-button-header").onclick = function() {
+    window.location.assign("http://www.danielwebsite.com/games/games.html");
+};
+        </script>
+    </body>
+</html>

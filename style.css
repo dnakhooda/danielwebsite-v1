@@ -1,0 +1,20 @@
+.other-section-div{
+    width: 80%;
+}
+
+#header-div{
+    display: flex;
+    height: 100%;
+}
+
+#updates-div{
+    width: 100%;
+}
+
+#other-div{
+    width: 100%;
+}
+
+#images-div{
+    width: 100%;
+}

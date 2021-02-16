@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Daniel's Website Games Page</title>
+        <link rel="stylesheet" href="../mainStyle.css">
+        <link rel="stylesheet" href="styleGame.css">
+        <link rel="icon" href="https://s3-us-west-2.amazonaws.com/www.danielwebsite.com/Icon.png">
+    </head>
+    <body>
+        <div class="center-div">
+            <div id="main-body-div">
+                <div class="wrapper">
+                    <!-- Header -->
+                    <header id="main-header">
+                        <div id="header-div">
+                            <div class="button-div-header">
+                                <button class="button-header" id="home-button-header">
+                                    Home
+                                </button>
+                            </div>
+                            <div class="button-div-header">
+                                <button class="button-header" id="about-button-header">
+                                    About
+                                </button>
+                            </div>
+                            <div class="button-div-header">
+                                <button class="button-header" id="games-button-header">
+                                    Games
+                                </button>
+                            </div>
+                            <div class="button-div-header">
+                                <button class="button-header" id="themes-button-header">
+                                    Themes
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+                    <div id="divider-div"></div>
+                    <div class="section-div">
+                        <h2>Games (Finished):</h2>
+                        <div class="center-div">
+                            <div class="list-div">
+                                <a href="http://www.danielwebsite.com/games/TheDotGame/Dot.html">
+                                    <button class="game-button" id="the-dot-game-button">
+                                        <h2>The Dot Game</h2>
+                                        <p id="Dot-Completion"></p>
+                                    </button>
+                                </a>
+                                <div id="smaller-divider-div"></div>
+                                <a href="http://www.danielwebsite.com/games/Aliens/Space.html">
+                                    <button class="game-button" id="aliens-button">
+                                        <h2>Aliens</h2>
+                                        <p id="Aliens-Completion"></p>
+                                    </button>
+                                </a>
+                                <div id="smaller-divider-div"></div>
+                                <a href="http://www.danielwebsite.com/games/Space/home.html">
+                                    <button class="game-button" id="space-button">
+                                        <h2>Space</h2>
+                                        <p id="Space-Completion"></p>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="divider-div"></div>
+                        <h2>Games (Not Finished):</h2>
+                        <div class="center-div">
+                            <div class="list-div">
+                                <h3 class="none-text">None</h3>
+                            </div>
+                        </div>
+                        <div id="divider-div"></div>
+                        <div id="divider-div"></div>
+                    </div>
+                    <footer class="footer">
+                        <div class="center-div">
+                            <pre>Email: daniel@danielwebsite.com      Copyright 2020</pre>
+                        </div>
+                    </footer> 
+                </div>
+            </div>
+        </div>
+        <script src="../mainScript.js"></script>
+        <script src="../themeScript1.js"></script>
+        <script src="completion.js"></script>
+        <script>
+let spaceButton = document.getElementById("space-button");
+let jumpButton = document.getElementById("jump-button");
+let aliensButton = document.getElementById("aliens-button");
+let theDotGameButton = document.getElementById("the-dot-game-button")
+
+jumpButton.onclick = function() {
+    alert("This is currently not finished. Please check back latter!");
+};
+
+        </script>
+    </body>
+</html>

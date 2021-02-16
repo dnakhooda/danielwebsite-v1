@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Space About</title>
+    <link rel="icon" href="https://s3-us-west-2.amazonaws.com/www.danielwebsite.com/Icon.png">
+    <style media="screen">
+
+
+@font-face {
+  font-family: "Commodore";
+  src: url("gameFont1.ttf");
+}
+
+@font-face {
+  font-family: "Commodore2";
+  src: url("gameFont2.ttf");
+}
+
+.title1{
+  text-align: center;
+  font-family:"Commodore";
+  color: white;
+  font-weight: normal;
+}
+
+.title2{
+  font-family:"Commodore2";
+  color: white;
+  font-weight: normal;
+}
+
+body{
+  background-color: black;
+}
+
+#body-div{
+  width: 700px;
+  height: 475px;
+  border: 5px solid white;
+}
+
+.text1{
+  font-family: "Commodore2";
+  font-size: 10px;
+  color: white
+}
+
+button{
+  font-family: "Commodore2";
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  border: none;
+}
+
+#back-button{
+  margin-top: 20px;
+  border: 5px solid white;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 710px;
+  font-family: "Commodore2";
+  text-decoration: underline;
+}
+    </style>
+  </head>
+  <body>
+    <center>
+      <div id="body-div">
+        <h1 class="title1" id="theTitle">About</h1>
+        <hr>
+        <h2 class="title2">Controls</h2>
+        <p class="text1">To move your spaceship around use the W,A,S, and D. You may also use the arrow keys to move around. The flicker you must press the F key. Flickering allows you to go through objects that would normally kill you. Though you should flicker sparingly because their is a flicker bar which shows you how much time you have left to flicker. This flicker bar is located on the top left corner of the screen. If you press the P key it shows the hit boxes of your enemies.</p><br>
+        <hr>
+        <h2 class="title2">Objective</h2>
+        <p class="text1">The objective of the game is to survive until the timer on the right corner of your screen goes to 0. Once the timer gets to 0 you can go on to the next level.</p><br>
+        <hr>
+        <center><a href="http://www.danielwebsite.com/games/Space/home.html"><button type="button" name="button">Back</button></a></center>
+      </div>
+      <a href="http://www.danielwebsite.com/games/games.html">
+        <button id="back-button">Back to Game Selection</button>
+      </a>
+    </center>
+    <script src="AnyLevel.js" defer></script>
+    <script src="jquery-3.4.1.min.js" defer></script>
+    <script src="About.js" defer></script>
+  </body>
+</html>

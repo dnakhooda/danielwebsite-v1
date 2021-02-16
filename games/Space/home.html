@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Space</title>
+    <link rel="icon" href="https://s3-us-west-2.amazonaws.com/www.danielwebsite.com/Icon.png">
+    <style media="screen">
+@font-face {
+  font-family: "Commodore";
+  src: url("gameFont1.ttf");
+}
+
+@font-face {
+  font-family: "Commodore2";
+  src: url("gameFont2.ttf");
+}
+
+.title1{
+  text-align: center;
+  font-family:"Commodore";
+  color: white;
+  font-weight: normal;
+}
+
+#homeCanvas{
+  background-color: black;
+  height: 350px;
+  border-radius: 0%;
+}
+
+.button{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border-color: #ffffff;
+  border-style: solid;
+  color: #ffffff;
+  text-decoration: bold;
+  font-family: "Commodore";
+  font-size: 25px;
+  text-align: center;
+}
+
+#playButton{
+  background-color: #880000;
+}
+
+#aboutButton{
+  background-color: #008800;
+}
+
+#creditsButton{
+  background-color: #000088;
+}
+
+.text1{
+  color: white;
+  font-family: "Commodore2";
+}
+
+body{
+  background-color: black;
+}
+
+#body-div{
+  width: 700px;
+  height: 500px;
+  border: 5px solid white;
+}
+
+#back-button{
+  margin-top: 20px;
+  border: 5px solid white;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 710px;
+  font-family: "Commodore2";
+  text-decoration: underline;
+}
+    </style>
+  </head>
+  <body>
+    <center>
+      <div id="body-div">
+        <h1 class="title1">Space</h1>
+        <br><br>
+        <b>
+          <a>
+            <center>
+              <button type="button" name="button" id="playButton" class="button">
+                Play
+              </button>
+           </center>
+          </a>
+        </b>
+        <br><br>
+        <b>
+          <a>
+            <center>
+              <button type="button" name="button" id="aboutButton" class="button">
+                About
+              </button>
+           </center>
+          </a>
+        </b>
+        <br><br>
+        <b>
+          <a>
+            <center>
+              <button type="button" name="button" id="creditsButton" class="button">
+                Credits
+              </button>
+            </center>
+          </a>
+        </b>
+        <br><br><br><br><br><br>
+        <p class="text1">Created By Jupiter Games</p>
+      </div>
+    
+      <a href="http://www.danielwebsite.com/games/games.html">
+        <button id="back-button">Back to Game Selection</button>
+      </a>
+    </center>
+    <script src="jquery-3.4.1.min.js" defer></script>
+    <script src="homeScript.js" defer></script>
+  </body>
+</html>

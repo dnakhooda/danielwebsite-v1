@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Daniel's Website Games Page</title>
+        <link rel="stylesheet" href="../mainStyle.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="https://s3-us-west-2.amazonaws.com/www.danielwebsite.com/Icon.png">
+    </head>
+    <body>
+        <div class="center-div">
+            <div id="main-body-div">
+                <div class="wrapper">
+                    <!-- Header -->
+                    <header id="main-header">
+                        <div id="header-div">
+                            <div class="button-div-header">
+                                <button class="button-header" id="home-button-header">
+                                    Home
+                                </button>
+                            </div>
+                            <div class="button-div-header">
+                                <button class="button-header" id="about-button-header">
+                                    About
+                                </button>
+                            </div>
+                            <div class="button-div-header">
+                                <button class="button-header" id="games-button-header">
+                                    Games
+                                </button>
+                            </div>
+                            <div class="button-div-header">
+                                <button class="button-header" id="themes-button-header">
+                                    Themes
+                                </button>
+                            </div>
+                        </div>
+                    </header>
+
+
+                    <div id="divider-div-weak"></div>
+                    <div class="section-div-themes">
+                        <h1>Themes</h1>
+                        <div style="display: flex;">
+                            <img src="https://s3-us-west-2.amazonaws.com/www.danielwebsite.com/themes/blackTheme.PNG" alt="black theme img" class="imgs-theme">
+                            <div class="text-secion-themes">
+                                <h2 style="text-align: center;">Dark Theme</h2>
+                                <div class="p-secion-themes">
+                                    <p>This theme is the standard the theme of the webpage. This theme is for people that like the dark.</p>
+                                    <div class="apply-button-div">
+                                        <button class="apply-theme-button" onclick="setTheme.black();">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div style="display: flex; margin-top: 50px;">
+                            <img src="https://s3-us-west-2.amazonaws.com/www.danielwebsite.com/themes/blueTheme.PNG" alt="black theme img" class="imgs-theme">
+                            <div class="text-secion-themes">
+                                <h2 style="text-align: center;">Blue Theme</h2>
+                                <div class="p-secion-themes">
+                                    <p>This theme is for the people that like the color blue.</p>
+                                    <div class="apply-button-div">
+                                        <button class="apply-theme-button" onclick="setTheme.blue();">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="display: flex; margin-top: 50px;">
+                            <img src="https://s3-us-west-2.amazonaws.com/www.danielwebsite.com/themes/whiteTheme.PNG" alt="black theme img" class="imgs-theme">
+                            <div class="text-secion-themes">
+                                <h2 style="text-align: center;">White Theme</h2>
+                                <div class="p-secion-themes">
+                                    <p>This is for people that like the color white.</p>
+                                    <div class="apply-button-div">
+                                        <button class="apply-theme-button" onclick="setTheme.white();">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="divider-div"></div>
+                        <div id="divider-div"></div>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="center-div">
+                        <pre>Email: daniel@danielwebsite.com      Copyright 2020</pre>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="../mainScript.js"></script>
+        <script src="../themeScript1.js"></script>
+    </body>
+</html>

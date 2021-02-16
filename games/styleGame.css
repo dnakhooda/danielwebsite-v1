@@ -1,0 +1,13 @@
+.list-div{
+    width: 80%;
+}
+
+.game-button{
+    background-color: black;
+    border: 3px solid #32CD32;
+}
+
+#smaller-divider-div{
+    width: 100%;
+    height: 35px;
+}

@@ -1,0 +1,139 @@
+html, body {
+    margin: 0;
+    background-color: black;
+}
+
+h1{
+    font-family: commodorePixelated;
+    color: #32CD32;
+    font-weight: 100;
+    text-align: center;
+}
+
+h2{
+    font-family: commodorePixelated;
+    color: #32CD32;
+    font-weight: 100;
+}
+
+h3{
+    font-family: commodorePixelated;
+    color: #32CD32;
+    font-weight: 100;
+}
+
+p{
+    font-family: commodorePixelated;
+    color: #32CD32;
+    font-weight: 100;
+}
+
+pre{
+    font-family: commodorePixelated;
+    color: #32CD32;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+button{
+    font-family: commodorePixelated;
+}
+
+.wrapper {
+    padding-bottom: 2.5rem; 
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 890px;
+    height: 3rem;  
+    border-top: 5px solid #32CD32;
+    border-left: 5px solid #32CD32;
+    border-right: 5px solid #32CD32;
+}
+
+.center-div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.button-header{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: black;
+    font-size: 20px;
+    color: #32CD32;
+    font-family: commodorePixelated;
+}
+
+.button-div-header{
+    width:20%;
+    height: 100%;
+}
+
+.none-text{
+    font-style: italic;
+}
+
+.center-text{
+    text-align: center;
+}
+
+#main-body-div{
+    width: 900px;
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+#main-header{
+    background-color: black;
+    height: 40px;
+    border-bottom: 5px solid #32CD32;
+    border-left: 5px solid #32CD32;
+    border-right: 5px solid #32CD32;
+}
+
+#border-div-weak{
+    width:100%;
+    height: 5px;
+    background-color: #32CD32;
+}
+
+.border-div-strong{
+    
+}
+
+#updates-section-div{
+    
+}
+
+#border-div-strong{
+    width:100%;
+    height: 10px;
+    background-color: #32CD32;
+}
+
+#header-div{
+    display: flex;
+    height: 100%;
+}
+
+#divider-div{
+    height: 100px;
+    width: 100%;
+}
+
+#divider-div-weak{
+    height: 50px;
+    width: 100%;
+}
+
+@font-face {
+    font-family: commodorePixelated;
+    src: url(CommodorePixelized.ttf);
+}

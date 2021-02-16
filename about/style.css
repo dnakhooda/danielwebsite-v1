@@ -1,0 +1,54 @@
+.updates-section-div{
+    width: 80%;
+}
+
+.other-section-div{
+    width: 80%;
+}
+
+#header-div{
+    display: flex;
+    height: 100%;
+}
+
+#updates-div{
+    width: 100%;
+}
+
+#other-div{
+    width: 100%;
+}
+
+#images-div{
+    width: 100%;
+}
+
+#divider-div{
+    height: 100px;
+    width: 100%;
+}
+
+#divider-div-small{
+    height: 45px;
+    width: 100%;
+}
+
+#about-div-divider{
+    display: flex;
+}
+
+#jupiter-img-div{
+    margin: 50px;
+}
+
+#about-text-div{
+    width: 100%;
+    margin: 10px;
+    margin-top: 50px;
+    
+}
+
+#jupiter-img{
+    width: 400;
+    height: 400px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Space Game</title>
+    <link rel="icon" href="https://s3-us-west-2.amazonaws.com/www.danielwebsite.com/Icon.png">
+    <style media="screen">
+@font-face {
+  font-family: "Commodore";
+  src: url("gameFont1.ttf");
+}
+
+@font-face {
+  font-family: "Commodore2";
+  src: url("gameFont2.ttf");
+}
+
+#title1{
+  text-align: center;
+  font-family:"Commodore";
+  color: white;
+  font-weight: normal;
+}
+
+#mainCanvas{
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  border-radius: 0%;
+}
+
+#speech{
+  font-family: "Commodore2";
+  color: white;
+  text-align: left;
+  font-size: 17px;
+}
+
+#restart{
+  position: absolute;
+  left: 60%;
+  top: 5%;
+  font-size: 15px;
+  font-family: "Commodore2";
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+#home{
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  font-size: 15px;
+  font-family: "Commodore2";
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+body{
+  background-color: black;
+}
+
+#body-div{
+  width: 700px;
+  height: 600px;
+  border: 5px solid white;
+}
+
+#back-button{
+  margin-top: 20px;
+  border: 5px solid white;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 710px;
+  font-family: "Commodore2";
+  text-decoration: underline;
+}
+    </style>
+  </head>
+  <body>
+    <center>
+      <div id="body-div">
+        <h1 id="title1">Space</h1>
+        <button type="button" name="button" id="restart" onclick="window.reload();">Retry</button>
+        <a href="http://www.danielwebsite.com/games/Space/home.html"><button type="button" name="button" id="home" onclick="window.reload();">Home</button></a>
+        <canvas id="mainCanvas" width="100%" height="300"></canvas>
+        <p id="speech"></p>
+      </div>
+      <a href="http://www.danielwebsite.com/games/games.html">
+        <button id="back-button">Back to Game Selection</button>
+      </a>
+    </center>
+    <script src="jquery-3.4.1.min.js" charset="utf-8" defer></script>
+    <script src="AnyLevel.js" charset="utf-8" defer></script>
+    <script src="Functions.js" charset="utf-8" defer></script>
+    <script src="Controls.js" charset="utf-8" defer></script>
+    <script src="collision.js" charset="utf-8" defer></script>
+    <script src="MainScript.js" charset="utf-8" defer></script>
+    <script src="../completion.js" defer></script>
+  </body>
+</html>
