@@ -1,10 +1,10 @@
 <h1>🧑‍💻 Daniel Website V1 🧑‍💻</h1>
 
 <p>
-  🧑‍💻 Daniel Website V1 🧑‍💻 is the first version of my website (danielwebsite.com). The code in this repository was on my website from 2020 to 2023. This older website has a blog page, about page, game page, and a change theme page. 
+Daniel Website V1 is the first version of my website (danielwebsite.com). The code in this repository was on my website from 2020 to 2023. This older website has a blog page, about page, game page, and a change theme page. 
 </p>
 
-<h2>Screenshots 📸</h2>
+<h2>Screenshots</h2>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/bcadd8ea-480e-4b53-a1d4-e686ee9e5608" alt="Home Page" width="600" />
